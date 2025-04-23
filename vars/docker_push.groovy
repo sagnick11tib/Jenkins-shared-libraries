@@ -1,5 +1,5 @@
 def call(String ImageName, String ImageTag, String dockerhubuser){
-  echo "This is pushing the image to DockerHub"
+  echo "This is pushing the image to DockerHub using script"
                 withCredentials([
                     usernamePassword('credentialsId':"dockerHubCred",
                                       passwordVariable:"dockerHubPass",
